@@ -1,0 +1,502 @@
+/* General card styling with green and black gradient */
+.card {
+  margin: 18px !important;
+  padding: 1rem;
+  text-align: center;
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B); /* Green to black gradient */
+  border: 1px solid #388E3C !important; /* Darker green border */
+  box-shadow: 0 40px 20px -40px #2E7D32; /* Green shadow */
+  border-radius: unset !important;
+  color: #FFFFFF; /* White text for contrast */
+}
+
+.resultGame {
+  color: #FF5252 !important; /* Red color for result game */
+}
+
+.card h6 {
+  color: #FFFFFF; /* White text */
+  font-weight: bold;
+}
+
+.diffcolor {
+  color: #FFFFFF; /* White text */
+}
+
+.diffcolor1 {
+  color: #777; /* Gray text */
+}
+
+.card span {
+  font-weight: bold;
+  color: #FFFFFF; /* White text */
+}
+
+.card .resultGame span:nth-child(2) {
+  color: #2196F3; /* Blue color */
+}
+
+.homeHeader {
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+  border-width: 3px;
+  border-color: #A61111;
+  border-style: outset;
+  margin-top: 2px;
+  color: #FFFFFF; /* White text */
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B); /* Green to black gradient */
+}
+
+.main-div {
+  background-color: #1B1B1B; /* Black background */
+}
+
+.homeHeader,
+.header-heading {
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B); /* Green to black gradient */
+  padding: 0px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.homeHeader a {
+  text-decoration: none;
+  color: #FF5252; /* Red color */
+}
+
+.homeHeader .link {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+.header-heading h1,
+.bottomResult h1 {
+  color: #FF5252 !important; /* Red color */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header-heading {
+  border-radius: 25px !important;
+}
+
+.header-heading h1 {
+  font-size: 21px !important;
+  padding-bottom: 7px !important;
+}
+
+.header-heading h6 {
+  color: #FFFFFF !important; /* White text */
+  font-size: 15px !important;
+  font-weight: 700;
+  padding-top: 3px;
+}
+
+.bottomResult h1 {
+  text-shadow: 1px 1px #2196F3; /* Blue shadow */
+}
+
+.dayCompoResult {
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B); /* Green to black gradient */
+  border-radius: 15px;
+  margin: 20px 0;
+  color: #FFFFFF; /* White text */
+}
+
+.currentBanner {
+  background-color: #1B1B1B; /* Black background */
+  padding: 15px 0px;
+}
+
+.currentBanner h6 {
+  color: #FFFFFF; /* White text */
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.currentBanner p {
+  color: #1FF5ED; /* Cyan color */
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+}
+
+.currentBanner button {
+  background-color: #FFFFFF; /* White background */
+  color: #FF5252; /* Red color */
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.result-button {
+  background-color: #FF5252 !important; /* Red color */
+  color: #FFFFFF !important; /* White color */
+  font-size: medium !important;
+  border: none;
+  margin-top: 7px;
+}
+
+.bottomResult {
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B); /* Green to black gradient */
+  padding: 1rem 0px;
+  color: #FFFFFF; /* White text */
+}
+
+.bottomResult h3 {
+  color: #4CAF50; /* Green color */
+  text-shadow: 1px 1px #2196F3; /* Blue shadow */
+  font-size: 50px;
+}
+
+.bottomResult hr {
+  opacity: 1 !important;
+}
+
+.game_column {
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B); /* Green to black gradient */
+  text-align: center;
+  border: 1px solid #388E3C; /* Darker green border */
+  font-weight: bold;
+  color: #FFFFFF; /* White text */
+  padding: 1rem 0rem;
+}
+
+.game_column h6 {
+  text-transform: uppercase;
+  color: #FFFFFF; /* White text */
+  font-weight: bold;
+}
+
+.game_column span {
+  margin: 1rem;
+}
+
+.textColor {
+  color: #777; /* Gray text */
+  font-weight: bold;
+}
+
+/* Table styling with green and black gradient */
+.ant-table-thead > tr > td,
+.ant-table-thead th {
+  border-radius: 0px !important;
+  border-color: #000;
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B) !important; /* Green to black gradient */
+  color: #FFFFFF !important; /* White text */
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+.ant-table-content td,
+.ant-table-content tr,
+.ant-table-content th {
+  padding: 5px 0px !important;
+  text-align: center !important;
+  border-right: 1px solid #388E3C !important; /* Darker green border */
+  vertical-align: middle !important;
+  text-wrap: nowrap;
+}
+
+.ant-table-wrapper,
+.ant-table-thead tr td,
+.ant-table-content,
+.ant-table-thead th {
+  border-bottom: 1px solid #388E3C; /* Darker green border */
+}
+
+.ant-table-content td,
+.ant-table-content th {
+  padding: 10px 5px !important;
+  text-align: center !important;
+  border-right: 2px solid #388E3C !important; /* Darker green border */
+  vertical-align: middle !important;
+  border-bottom: 2px solid #388E3C !important; /* Darker green border */
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B); /* Green to black gradient */
+  color: #FFFFFF; /* White text */
+}
+
+.ant-table-content tr:nth-child(even) {
+  background: linear-gradient(135deg, #45a049, #1B1B1B) !important; /* Darker green to black gradient */
+}
+
+.ant-table-wrapper table {
+  border-radius: 0px !important;
+}
+
+table tbody tr:hover {
+  background: linear-gradient(135deg, #388E3C, #1B1B1B) !important; /* Darker green to black gradient */
+  color: #FF5252; /* Red color */
+}
+
+/* Footer and button styling */
+.footerButton button {
+  background: #FF5252; /* Red color */
+  width: 100%;
+  border-radius: 1rem;
+  border: 0px;
+  color: #FFFFFF; /* White color */
+}
+
+.footerButton .last-button {
+  width: 32%;
+}
+
+.colorwhite {
+  color: #FFFFFF !important; /* White color */
+  font-weight: bold;
+}
+
+/* Banner styling */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B); /* Green to black gradient */
+  border-radius: 15px;
+  border: 2px solid #2196F3; /* Blue border */
+  color: #FFFFFF; /* White text */
+}
+
+.game {
+  text-align: center;
+  color: #2196F3; /* Blue color */
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+  background-color: #837E7E;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #837E7E;
+  border: 1px solid;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #C1C6C2;
+}
+
+/* Additional sections */
+.about,
+.faq,
+.privacy,
+.disclaimer,
+.contact {
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B); /* Green to black gradient */
+  border-radius: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #FFFFFF; /* White text */
+  padding: 20px;
+}
+
+.warning {
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B); /* Green to black gradient */
+  color: #FFFFFF; /* White text */
+  font-family: arial;
+  text-decoration: none;
+  border-width: 3px;
+  border-color: #FF0000; /* Red border */
+  border-style: outset;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.marqu {
+  color: #FFFFFF; /* White text */
+}
+
+.warning h2 {
+  font-weight: bold;
+}
+
+.about h3,
+.faq h3,
+.privacy h3,
+.disclaimer h3,
+.contact h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about p,
+.faq p,
+.privacy p,
+.disclaimer p,
+.contact p {
+  font-size: 20px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.rounded-button {
+  text-align: center;
+  font-weight: 500;
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B); /* Green to black gradient */
+  color: #FF5252; /* Red color */
+  width: 33%;
+  border: 5px solid #000;
+  border-radius: 15px;
+  padding: 8px;
+  cursor: pointer;
+  text-decoration: unset;
+}
+
+.sattaReal h5 {
+  color: #FF5252; /* Red color */
+}
+
+.color {
+  color: #777 !important; /* Gray text */
+}
+
+.navbar1 {
+  text-align: center;
+  border: 2px solid #000;
+}
+
+.navbar1 a {
+  font-size: 15px;
+  display: block;
+  color: #FFFFFF; /* White text */
+  text-decoration: none;
+  padding: 5px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background: #FF5252; /* Red color */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.link1 a {
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B); /* Green to black gradient */
+  color: #FFFFFF; /* White text */
+  border-radius: 0;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.monthYrTbl {
+  text-transform: uppercase;
+}
+
+.toast-message {
+  background: #FF5252 !important; /* Red color */
+  color: #FFFFFF !important; /* White color */
+  border: 5px solid #940505; /* Dark red border */
+}
+
+.Toastify__toast-body,
+.toast-message button {
+  color: #FFFFFF !important; /* White color */
+}
+
+.Toastify__progress {
+  background-color: #4CAF50 !important; /* Green color */
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking-text {
+  animation: blink 1s infinite;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: transparent;
+  animation: effect 1s linear infinite;
+  text-transform: uppercase;
+}
+
+@keyframes effect {
+  0% {
+    background: linear-gradient(to left, #DE2828, #410404);
+    -webkit-background-clip: text;
+  }
+
+  100% {
+    background: linear-gradient(to left, #ED1818, #DF1F1F);
+    -webkit-background-clip: text;
+  }
+}
+
+.advertisementSection .ad-section {
+  width: 92%;
+  margin: 20px auto;
+  border: 3px solid #E67E22; /* Orange border */
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  background: linear-gradient(135deg, #4CAF50, #1B1B1B); /* Green to black gradient */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  color: #FFFFFF; /* White text */
+}
+
+.advertisementSection h3 {
+  color: #D35400; /* Darker orange */
+  font-size: 30px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.advertisementSection h4 {
+  color: #FFFFFF; /* White text */
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.advertisementSection .ad-btn {
+  color: #FFFFFF; /* White color */
+  background-color: #E74C3C; /* Red color */
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.advertisementSection .ad-btn:hover {
+  background-color: #C0392B; /* Darker red on hover */
+  color: #FFFFFF; /* White color */
+}
+
+.fa-whatsapp {
+  background: #4CAF50; /* Green color */
+  border-radius: 65%;
+}
+
+.fa-phone {
+  color: #4CAF50; /* Green color */
+  box-shadow: 0px 0px 7px #FFFFFF; /* White shadow */
+  background: #FFFFFF; /* White background */
+  padding: 0.1rem;
+  border-radius: 5px;
+}
